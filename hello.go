@@ -3,19 +3,16 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 
-func main() {
-	fmt.Println("Hello World")
+func foo() {
+	fmt.Println("The square root of 4 is", math.Sqrt(4))
 }
 
+func main() {
+	fmt.Println("Hello World")
+	foo()
 
-
-
-
-
-
-
-
-
+}
